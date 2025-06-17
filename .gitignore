@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build outputs
+dist/
+
+# Puppeteer user data (contains sensitive browser data)
+puppeteer-user-data/

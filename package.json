@@ -1,0 +1,38 @@
+{
+  "name": "mcp-server-shufersal",
+  "version": "0.0.1",
+  "description": "MCP server for shufersal automation using Puppeteer",
+  "license": "MIT",
+  "author": "Mati Horowitz",
+  "authorUrl": "https://github.com/matipojo",
+  "type": "module",
+  "bin": {
+    "shufersal-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && shx chmod +x dist/*.js",
+    "watch": "tsc --watch",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.12.3",
+    "puppeteer": "^24.10.1",
+    "turndown": "^7.2.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@types/turndown": "^5.0.5",
+    "@typescript-eslint/eslint-plugin": "^8.34.1",
+    "@typescript-eslint/parser": "^8.34.1",
+    "@typescript/lib-dom": "npm:@types/web@^0.0.242",
+    "eslint": "^9.29.0",
+    "eslint-config-prettier": "^10.1.5",
+    "shx": "^0.4.0",
+    "typescript": "^5.8.3"
+  }
+}
