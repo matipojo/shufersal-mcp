@@ -127,6 +127,20 @@ npm run lint
 npm run lint:fix
 ```
 
+### Prerequisites
+
+```bash
+npm install -g typescript
+npm install puppeteer
+```
+
+### Unresolved error messages?
+
+```bash
+chmod: File not found: /Users/mcp/shufersal-mcp/dist/*.js
+```
+
+
 ## License
 
 This MCP server is licensed under the MIT License. This means you are free to use, modify, and distribute the software, subject to the terms and conditions of the MIT License.
